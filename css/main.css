@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center
+}
+
+.header img {
+    width: 150px;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-evenly;
+}
+
+.header a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.footer {
+    background-color: black;
+    color: white;
+
+}
+
+.footer ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.footer li {
+    color: white;
+    height: 30px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main h1 {
+    padding: 13px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 410px;
+    background-color: beige;
+}
+
+.main-nosotros h1{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    height: 85px;
+    font-size: 50px;
+}
+
+.main-nosotros p{
+    color: white;
+    background-color: rgb(0, 0, 0);
+   max-width: 600px;
+   text-align: center;
+   font-size: 24px;
+   padding: 15px;
+}
+
+.main-servicios{
+    background-color: beige;
+}
+
+.main-servicios h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    height: 80px
+    
+}
+
+.main-servicios img{
+    height: 400px;
+}
+
+.main-servicios section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-servicios div{
+    display: flex;
+    background-color: beige;
+}
+
+.main-servicios img{
+    margin: 30px
+}
+
+.main-servicios p{
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+
+}
+
+.formulario{
+    background-color: #a40000;
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 100px;
+    padding: 20px;
+}
+
+.main-contactanos h2{
+    display: flex;
+    justify-content: space-around;
+    margin: revert;
+    padding: 30px;
+}
+
+.main-contactanos p{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.main-contactanos{
+    height: 390px;
+    background-color: beige;
+
+}
+
+
+.main-productos{
+    background-color: beige;
+}
+
+.main-productos h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    height: 80px
+    
+}
+
+.main-productos img{
+    height: 400px;
+}
+
+.main-productos section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-productos div{
+    display: flex;
+    background-color: beige;
+}
+
+.main-productos img{
+    margin: 30px
+}
+
+
+.enlace-uno{
+    padding: 10px;
+}
+
+.enlace-dos{
+    padding: 10px;
+}
+
+.enlace-tres{
+    padding: 10px;
+}
+
+
+.header a:visited{
+    color: #a40000;
+}
+
+.header a:hover{
+    color: #120482;
+}
